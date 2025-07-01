@@ -113,9 +113,7 @@ Maven / Gradle
 Gmail with App Passwords enabled
 
 🚦 How to Run
-bash
-Copy
-Edit
+
 # Clone the project
 git clone https://github.com/your-username/event-token-system.git
 
@@ -130,9 +128,7 @@ java -cp target/event-token-system.jar org.example.Main
 Access the server at: http://localhost:8888
 
 📬 Example SMTP Output
-kotlin
-Copy
-Edit
+
 Subject: Your Event Booking Token
 
 Hello John,
@@ -153,15 +149,21 @@ List events ➝ /api/events
 Book token ➝ /api/book/<eventId>
 
 📁 Suggested Directory Structure
-css
-Copy
-Edit
+
 event-token-system/
+
 ├── src/
+
 │   ├── main/java/org/example/
+
 │   │   ├── Main.java
+
 │   │   ├── utils/EmailUtil.java
+
 │   │   ├── handlers/...
+
 │   │   └── database/MongoClientProvider.java
+
 ├── pom.xml
+
 └── README.md
